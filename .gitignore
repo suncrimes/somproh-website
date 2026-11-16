@@ -1,0 +1,22 @@
+# Secrets - NEVER commit these
+wp-config.php
+.env
+*.sql
+*.sql.gz
+*.zip
+*.bak
+*.old
+*.log
+
+# Generated / runtime data
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/uploads/really-simple-ssl/
+wp-content/debug.log
+
+# OS junk
+.DS_Store
+Thumbs.db
